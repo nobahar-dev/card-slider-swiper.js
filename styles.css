@@ -1,0 +1,89 @@
+/*start of common styles*/
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1E1E1E;
+}
+/*end of common styles*/
+
+/*start of slider card styles*/
+.swiper {
+    width: 24rem;
+    height: 34rem;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.swiper-slide:nth-child(1) {
+    background-image: url("img/ronaldo.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.swiper-slide:nth-child(2) {
+    background-image: url("img/messi.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.swiper-slide:nth-child(3) {
+    background-image: url("img/beckham.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.swiper-slide:nth-child(4) {
+    background-image: url("img/kaka.png");
+    background-position: center;
+    background-size: contain;
+}
+
+.swiper-slide:nth-child(5) {
+    background-image: url("img/ronaldinho.png");
+    background-position: center;
+    background-size: contain;
+}
+
+.swiper-slide:nth-child(6) {
+    background-image: url("img/roony.png");
+    background-position: center;
+    background-size: contain;
+}
+/*end of slider card styles*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
